@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 
-const accessToken = 'c0cd7cc7269e45eb12b7ca094844a468fb25bb51';
+const accessToken = '162c6ebffb462ac3afbcd1f3905ab99cfe76c976';
 const client = new ApolloClient({
     uri: 'https://api.github.com/graphql',
     request: async operation => {

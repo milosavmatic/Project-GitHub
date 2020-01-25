@@ -3,7 +3,6 @@ import React from 'react';
 export default function Link({ name, url, description }) {
     const styles = {
         link: {
-            alignSelf: 'center',
             borderWidth: 2,
             borderStyle: 'solid',
             margin: 5,
